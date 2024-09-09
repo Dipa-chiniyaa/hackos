@@ -38,6 +38,7 @@ function plusMinus(arr) {
         } else {
             zero++;
         }
+        i++;
     }
     console.log((pos/arr.length).toFixed(6));
     console.log((neg/arr.length).toFixed(6));
